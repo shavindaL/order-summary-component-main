@@ -1,9 +1,15 @@
+body
+{
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+}
+
 .container {
-  position: absolute;
+
   width: 100%;
   padding-bottom: 10%;
   background-color: hsl(225, 100%, 94%);
-  height:100vh;
+  height: 110vh;
 }
 
 .topImg {
@@ -22,7 +28,7 @@
   text-align: center;
   color: hsl(223, 47%, 23%);
   font-weight: 900;
-  padding-bottom: 5vh;
+  padding-bottom: 5%;
 }
 
 .midImg {
@@ -31,7 +37,7 @@
 }
 
 p {
-  width: 60%;
+  width: 90%;
   font-size: 1rem;
   font-weight: 500;
   max-width: 100%;
@@ -50,7 +56,8 @@ p {
   float: left;
 }
 
-.change{
+.change {
+  display: inline-block;
   float: right;
   margin-top: 7%;
 }
@@ -94,14 +101,20 @@ p {
 }
 
 .attribution {
-  position:absolute;
-  bottom: 0%;
-  left:33%;
+  position: absolute;
+  bottom: 0;
+  left: 33%;
   width: 33%;
   margin: 3%;
-  font-size: 11px;
+  font-size: o.688rem;
+
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+footer{
+  position: relative;
+  top: 120%;
 }
